@@ -1,0 +1,21 @@
+package BD_3pm_Batch;
+
+import java.util.Scanner;
+
+public class swapTwovariable_withoutUsingThird_Variable {
+
+	public static void main(String[] args) {
+		int a, b;
+		Scanner sw = new Scanner(System.in);
+		System.out.println("The numbers are");
+		a = sw.nextInt();
+		b = sw.nextInt();
+		a = a + b;
+		b = a - b;
+		a = a - b;
+		System.out.println("Swapping numbers are");
+		System.out.println(a);
+		System.out.println(b);
+	}
+
+}
